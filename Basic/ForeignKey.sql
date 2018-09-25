@@ -6,5 +6,11 @@ CREATE TABLE orders (
     primary key(id)
 );
 
-ALTER TABLE ORDERS 
+ALTER TABLE orders 
     ADD FOREIGN KEY (customer_id) REFERENCES customers(id);
+    
+ALTER TABLE orders
+    DROP FOREIGN KEY;
+    
+    
+    
