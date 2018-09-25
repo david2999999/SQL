@@ -1,0 +1,9 @@
+SELECT * FROM customers WHERE salary = 10000;
+
+SELECT (15 + 6) AS Addition;
+
+SELECT COUNT(*) AS "Records" FROM customers;
+
+SELECT CURRENT_TIMESTAMP;
+
+SELECT GETDATE();
