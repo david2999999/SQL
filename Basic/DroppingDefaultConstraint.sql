@@ -1,2 +1,0 @@
-ALTER TABLE customers
-    ALTER COLUMN salary DROP DEFAULT;
