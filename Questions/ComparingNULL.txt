@@ -1,0 +1,7 @@
+What will be the result of the query below? Explain your answer and provide a version that behaves correctly.
+
+select case when null = null then 'Yup' else 'Nope' end as Result;
+
+The statement tries to compare null with null, the correct way will be
+
+select case when null is null then 'Yup' else 'Nope' end as Result;
