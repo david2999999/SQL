@@ -1,0 +1,10 @@
+List and explain the different type of JOIN clauses.
+
+INNER JOIN - return all of the rows for which there is at least one match in both tables. (default type)
+LEFT JOIN - return all of the rows from the left table and the matched rows from the right table. The result
+            will contain all of the result of the left table, even if the JOIN condition doesn't match any record
+            on the right table. The columns that does not match the right table will have a value of NULL.
+RIGHT JOIN - Opposite of LEFT JOIN
+FULL JOIN - returns all of the rows for which there is a match in EITHER of the tables. Similar to applying both a left and right join together.
+CROSS JOIN - returns all record where each row from the first table is combined with each row from the second table. 
+            Basically a cartesion products of the set of rows from the join tables.
