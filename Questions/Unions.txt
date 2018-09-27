@@ -1,0 +1,5 @@
+What does UNION do? What is the difference between UNION and UNION ALL?
+
+Union merges the content of two structually compatible tables into a single combined table. 
+Union will omit duplicates, while UNION ALL will include duplicates. 
+The performance of UNION ALL is usually better than UNION because UNION need to do addition work of removing duplicates.
