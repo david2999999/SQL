@@ -18,3 +18,23 @@ Insert Into Customers (cod_customer, name)
     Values (4, 'Shirley');
 Insert Into Customers (cod_customer, name)
     Values (5, 'John');
+    
+    
+Insert Into Orders Values (1, '2015-12-21', '2015-12-21', 1);
+Insert Into Orders Values (2, '2015-12-22', '2015-12-23', 1);
+Insert Into Orders Values (3, '2015-12-22', '2015-12-27', 2);
+Insert Into Orders Values (4, '2015-12-27', '2015-12-30', 3);
+Insert Into Orders Values (5, '2015-12-30', '2015-12-31', 3);
+
+Insert Into OrdersProducts Values (1, 1, 1);
+Insert Into OrdersProducts Values (2, 1, 1);
+Insert Into OrdersProducts Values (1, 2, 2);
+Insert Into OrdersProducts Values (5, 3, 7);
+Insert Into OrdersProducts Values (4, 3, 4);
+Insert Into OrdersProducts Values (3, 3, 5);
+Insert Into OrdersProducts Values (2, 3, 5);
+Insert Into OrdersProducts Values (1, 4, 8);
+Insert Into OrdersProducts Values (2, 4, 2);
+Insert Into OrdersProducts Values (1, 5, 3);
+Insert Into OrdersProducts Values (2, 5, 3);
+Insert Into OrdersProducts Values (4, 5, 5);
