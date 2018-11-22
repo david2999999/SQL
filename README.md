@@ -1,18 +1,13 @@
+## First Normal Form (1NF)
+- It should only have single(atomic) valued attributes/columns.
+- Values stored in a column should be of the same domain
+- All the columns in a table should have unique names.
+- And the order in which data is stored, does not matter.
 
-     ,-----.,--.                  ,--. ,---.   ,--.,------.  ,------.
-    '  .--./|  | ,---. ,--.,--. ,-|  || o   \  |  ||  .-.  \ |  .---'
-    |  |    |  || .-. ||  ||  |' .-. |`..'  |  |  ||  |  \  :|  `--, 
-    '  '--'\|  |' '-' ''  ''  '\ `-' | .'  /   |  ||  '--'  /|  `---.
-     `-----'`--' `---'  `----'  `---'  `--'    `--'`-------' `------'
-    ----------------------------------------------------------------- 
+## Second Normal Form (2NF)
+- It should be in the First Normal form.
+- And, it should not have Partial Dependency.
 
-
-Hi there! Welcome to Cloud9 IDE!
-
-To get you started, create some files, play with the terminal,
-or visit http://docs.c9.io for our documentation.
-If you want, you can also go watch some training videos at
-http://www.youtube.com/user/c9ide.
-
-Happy coding!
-The Cloud9 IDE team
+## Third Normal Form (3NF)
+- It is in the Second Normal form.
+- And, it doesn't have Transitive Dependency.
