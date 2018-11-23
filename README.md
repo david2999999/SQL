@@ -12,3 +12,10 @@
 ## Third Normal Form (3NF)
 - It is in the Second Normal form.
 - And, it doesn't have Transitive Dependency.
+
+
+## Boyce and Codd Normal Form (BCNF)
+### Boyce and Codd Normal Form is a higher version of the Third Normal form. This form deals with certain type of anomaly that is not handled by 3NF. A 3NF table which does not have multiple overlapping candidate keys is said to be in BCNF. For a table to be in BCNF, following conditions must be satisfied:
+
+- R must be in 3rd Normal Form
+- and, for each functional dependency ( X → Y ), X should be a super Key.
